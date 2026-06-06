@@ -744,6 +744,25 @@ PAGE SUB HEADER END
     }
 }
 
+@media (max-width: 600px) {
+
+    .hero-buttons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .btn-yellow{
+        width: 160px;      /* apni need ke hisab se */
+        padding: 10px 24px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+}
+
+
 /* ==========================
    HERO SECTION end
 ========================== */
