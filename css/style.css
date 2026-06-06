@@ -607,19 +607,7 @@ PAGE SUB HEADER END
     outline: none;
 
     border-radius: 10px;
-
-    font-size: 14px;
 }
-
-input[type="date"]{
-    width: 100%;
-    background: #fff;
-    color: #000;
-    appearance: none;
-    -webkit-appearance: none;
-}
-
-
 
 .booking-form input:focus,
 .booking-form select:focus{
