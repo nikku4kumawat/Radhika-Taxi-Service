@@ -610,6 +610,15 @@ PAGE SUB HEADER END
 
     font-size: 14px;
 }
+
+input[type="date"]{
+    appearance: auto;
+    -webkit-appearance: auto;
+    min-height: 45px;
+}
+
+
+
 .booking-form input:focus,
 .booking-form select:focus{
     border-color: #ffb000;
