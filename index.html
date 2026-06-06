@@ -208,11 +208,12 @@
             <input type="text" id="drop" placeholder="Drop Location" required>
 
             <!-- <input type="date" id="date" required> -->
-             <input type="text" id="date" placeholder="dd-mm-yyyy"
+             <!-- <input type="text" id="date" placeholder="dd-mm-yyyy"
                 onfocus="this.type='date'"
                 onblur="if(!this.value)this.type='text'"
                 required
-            >
+            > -->
+            <input type="text" id="date" placeholder="dd-mm-yyyy" required>
 
             <select id="car" required>
                 <option value="">Select Car Type</option>
@@ -1109,7 +1110,14 @@
     <script src="js/bookform.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/fleet.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 
+<script>
+flatpickr("#date", {
+    dateFormat: "d-m-Y",
+    allowInput: true
+});
+</script>
    
 
 
