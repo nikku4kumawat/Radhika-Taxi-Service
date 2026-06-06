@@ -22,7 +22,7 @@ document
 📝 Requirements:
 ${message}`;
 
-    let whatsappNumber = "91 9828676243";
+    let whatsappNumber = "919828676243";
 
     let url =
       `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(text)}`;
