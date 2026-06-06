@@ -612,9 +612,11 @@ PAGE SUB HEADER END
 }
 
 input[type="date"]{
-    appearance: auto;
-    -webkit-appearance: auto;
-    min-height: 45px;
+    width: 100%;
+    background: #fff;
+    color: #000;
+    appearance: none;
+    -webkit-appearance: none;
 }
 
 
