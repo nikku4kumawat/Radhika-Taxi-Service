@@ -42,9 +42,3 @@ Car Type: ${car}`;
         "_blank"
     );
 });
-
-
-flatpickr("#date",{
-    dateFormat:"d-m-Y",
-    allowInput:true
-});

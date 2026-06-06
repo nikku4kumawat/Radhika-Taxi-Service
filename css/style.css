@@ -640,43 +640,6 @@ PAGE SUB HEADER END
     transform: scale(1.05);
 }
 
-.date-wrapper{
-    position: relative;
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-.date-wrapper input{
-    width: 100%;
-    padding: 12px 45px 12px 15px;
-
-    border: 1px solid rgba(255,255,255,.35);
-    border-radius: 10px;
-    outline: none;
-}
-
-.date-wrapper i{
-    position: absolute;
-    right: 15px;
-    top: 50%;
-    transform: translateY(-50%);
-
-    color: #222;
-    pointer-events: none;
-}
-
-/* Flatpickr styling */
-
-.flatpickr-calendar{
-    border-radius: 12px;
-}
-
-.flatpickr-day.selected{
-    background: #ffb000;
-    border-color: #ffb000;
-}
-
-
 /* RESPONSIVE */
 
 @media(max-width:992px){
