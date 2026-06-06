@@ -933,6 +933,9 @@ ABOUT SECTION END
 /*==========================
 VEHICLE SECTION START
 ==========================*/
+body{
+    overflow-x:hidden;
+}
 
 #vehicle{
     padding:70px 7%;
