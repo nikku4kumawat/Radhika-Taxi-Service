@@ -207,7 +207,12 @@
 
             <input type="text" id="drop" placeholder="Drop Location" required>
 
-            <input type="date" id="date" required>
+            <!-- <input type="date" id="date" required> -->
+             <input type="text" id="date"
+       placeholder="dd-mm-yyyy"
+       onfocus="this.type='date'"
+       onblur="if(!this.value)this.type='text'"
+       required>
 
             <select id="car" required>
                 <option value="">Select Car Type</option>
