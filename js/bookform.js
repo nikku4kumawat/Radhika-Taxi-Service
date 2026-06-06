@@ -35,7 +35,7 @@ Drop: ${drop}
 Date: ${date}
 Car Type: ${car}`;
 
-    const whatsappNumber = "91 9828676243";
+    const whatsappNumber = "919828676243";
 
     window.open(
         `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`,
