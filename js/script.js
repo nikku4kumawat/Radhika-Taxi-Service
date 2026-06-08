@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     .textContent = "+";
             });
 
-            // Agar pehle se open nahi tha to open karo
+            
             if (!isActive) {
 
                 item.classList.add("active");
@@ -50,10 +50,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 {/* FAQ section end */}
-
-
-
-
 
 
 
