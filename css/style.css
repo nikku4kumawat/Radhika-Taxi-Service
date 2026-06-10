@@ -640,6 +640,34 @@ PAGE SUB HEADER END
     transform: scale(1.05);
 }
 
+
+/* DATE INPUT FIX */
+
+.booking-form input[type="date"]{
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+
+    border: 1px solid rgba(255,255,255,.35);
+    border-radius: 10px;
+
+    background: #fff;
+    color: #777;
+
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+/* Calendar icon visible */
+
+.booking-form input[type="date"]::-webkit-calendar-picker-indicator{
+    cursor: pointer;
+    opacity: 1;
+}
+
+
+
+
 /* RESPONSIVE */
 
 @media(max-width:992px){
@@ -663,6 +691,11 @@ PAGE SUB HEADER END
 /*  TABLET & MOBILE FIX*/
 
 @media (max-width:768px){
+
+     .booking-form input[type="date"]{
+        font-size: 14px;
+        padding: 10px 12px;
+    }
 
     .hero{
         max-height: none;
