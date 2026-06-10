@@ -360,7 +360,7 @@ PAGE SUB HEADER START
     position: relative;
     width: 100%;
     height: 330px;
-    background: url("../img/banner.png") center center/cover no-repeat;
+    background: url("../img/subbanner.png") center center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
