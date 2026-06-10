@@ -41,6 +41,7 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -215,7 +216,13 @@
        onfocus="this.type='date'"
        onblur="if(!this.value)this.type='text'"
        required> -->
-              <input type="date" id="date" required>
+              <!-- <input type="date" id="date" required> -->
+               <input
+    type="text"
+    id="date"
+    placeholder="dd-mm-yyyy"
+    required
+>
 
             <select id="car" required>
                 <option value="">Select Car Type</option>
@@ -1083,6 +1090,7 @@
     <script src="js/script.js" defer></script>
     <script src="js/bookform.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
     <script src="js/fleet.js" defer></script>
 
    
