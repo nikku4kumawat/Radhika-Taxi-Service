@@ -705,18 +705,25 @@ PAGE SUB HEADER END
     }
 
     /* BUTTONS */
-
     .hero-buttons{
-        margin-left: 0;
+        width: 100%;
+        display: flex;
         justify-content: center;
-        gap: 10px;
     }
 
-    .btn-yellow,
+    
     .btn-white{
         padding: 10px 20px;
         font-size: 14px;
     }
+
+    .hero-buttons .btn-yellow{
+        width: 220px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 
     /* BOOKING FORM */
 
